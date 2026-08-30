@@ -25,7 +25,7 @@
                         <a class="nav-link" href="index.html">Inicio ZMART</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#productos">Productos ZMART</a>
+                        <a class="nav-link" href="index.html#productos">Productos ZMART</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html">Contacto ZMART</a>
@@ -35,9 +35,92 @@
         </div>
     </nav>
 
-    <p class="extracto-empresa">Tienda Venta de Videojuegos a Precios Bajos y con Rebajas, Todo Totalmente Legal</p>
+    <div class="container my-5">
 
-    <section class="container my-5" id="contacto">
-        <h2 class="titulo-seccion"> Contáctanos</h2>
-        <p>Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos. Puedes enviarnos un correo electrónico a
+        <h1 class="titulo-seccion"> Contacto ZMART</h1>
+        <p class="subtitulo-comprar">Si tienes alguna pregunta o necesitas asistencia, no dudes en contactarnos.</p>
+
+        <!-- ===== CARDS DE CONTACTO ===== -->
+        <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body card-comprar">
+                        <div class="icono-contacto">💬</div>
+                        <h5 class="card-title">WhatsApp</h5>
+                        <p class="card-text">Escríbenos directamente y te respondemos en menos de 1 hora en horario de atención.</p>
+                        <p class="card-text texto-horario">Lunes a Sábado: 10:00 - 20:00</p>
+                        <a href="https://wa.me/56912345678" class="btn btn-success" target="_blank">Contactar por WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body card-comprar">
+                        <div class="icono-contacto">📧</div>
+                        <h5 class="card-title">Correo Electrónico</h5>
+                        <p class="card-text">Envíanos un correo y te responderemos en menos de 24 horas hábiles.</p>
+                        <p class="card-text texto-horario">Lunes a Viernes: 09:00 - 18:00</p>
+                        <a href="mailto:contacto@zmart.cl" class="btn btn-primary">Enviar Correo</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h2 class="titulo-seccion"> Preguntas Frecuentes</h2>
+        <p class="subtitulo-comprar">Aquí encontrarás respuestas a las preguntas más comunes de nuestros clientes.</p>
+
+        <div class="accordion mb-5" id="preguntasFrecuentes">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta1">
+                        ¿Cómo puedo realizar un pedido?
+                    </button>
+                </h2>
+                <div id="pregunta1" class="accordion-collapse collapse show" data-bs-parent="#preguntasFrecuentes">
+                    <div class="accordion-body">
+                        Puedes realizar un pedido contactándonos por WhatsApp o correo. Indícanos el juego que deseas, te confirmaremos disponibilidad y precio, y coordinamos el pago y la entrega.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta2">
+                        ¿Cuáles son los métodos de pago disponibles?
+                    </button>
+                </h2>
+                <div id="pregunta2" class="accordion-collapse collapse" data-bs-parent="#preguntasFrecuentes">
+                    <div class="accordion-body">
+                        Aceptamos transferencia bancaria, tarjeta de débito y crédito, efectivo en tienda física y MercadoPago para compras digitales.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pregunta3">
+                        ¿Puedo devolver un juego si no funciona?
+                    </button>
+                </h2>
+                <div id="pregunta3" class="accordion-collapse collapse" data-bs-parent="#preguntasFrecuentes">
+                    <div class="accordion-body">
+                        Sí. Si una clave digital no funciona o un producto físico llega en mal estado, contáctanos dentro de las 48 horas siguientes a la compra y lo solucionamos sin costo adicional.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="pie-pagina">
+        <p>&copy; 2026 Equipo venta. Todos los derechos reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>

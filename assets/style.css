@@ -66,4 +66,17 @@
     margin-top: 40px;
 }
 
+.icono-contacto{
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+}
 
+.texto-horario{
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #d0e8ff;
+    color: #1a73e8;
+}
